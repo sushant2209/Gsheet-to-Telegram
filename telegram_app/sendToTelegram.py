@@ -9,12 +9,11 @@ import os
 gif_path = os.path.join(settings.MEDIA_ROOT, "SampleGIF.gif")
 
 async def send_message_to_telegram(message):
-    client = TelegramClient(StringSession(settings.SESSION_STRING), settings.API_ID, settings.API_HASH)
+    
 
     api_id = settings.TELEGRAM_API_ID
     api_hash = settings.TELEGRAM_API_HASH
-    client = TelegramClient('session', api_id, api_hash)
-
+    client = TelegramClient(StringSession(settings.SESSION_STRING), settings.API_ID, settings.API_HASH)
     await client.start()  # Start the client asynchronously
     client.parse_mode = CustomParseMode('markdown')  # Set parse_mode if needed
 
