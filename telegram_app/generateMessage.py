@@ -13,6 +13,7 @@ def generate_message(data):
 [📄](emoji/5377705435807619775) Contract: `{tokenCA}`
 
 [🔥](emoji/5424972470023104089){tokenName} Socials
+
 """
 
     # Add optional fields if they are provided and not "NA"
