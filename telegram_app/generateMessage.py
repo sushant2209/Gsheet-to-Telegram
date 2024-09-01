@@ -10,7 +10,7 @@ def generate_message(data):
 
 [💎](emoji/5427168083074628963)Token: [{tokenName} ({tokenSymbol})](https://dexsocials.com/{chain.lower()}/{tokenCA})
 
-[📄](emoji/5377705435807619775) Contract: {tokenCA}
+[📄](emoji/5377705435807619775) Contract: `{tokenCA}`
 
 [🔥](emoji/5424972470023104089){tokenName} Socials
 """
